@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/**"
+  ],
+  "private": true,
+  "scripts": {
+    "release": "lerna publish"
+  },
+  "packageManager": "yarn@3.2.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexckycort/eslint-config.git"
+  },
+  "author": "Nestor Cortina <nexckycort@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nexckycort/eslint-config/issues"
+  },
+  "homepage": "https://github.com/nexckycort/eslint-config#readme",
+  "devDependencies": {
+    "lerna": "^5.1.4"
+  }
+}
