@@ -71,7 +71,13 @@ const defaultRules = {
     }
   ],
 
-  'capitalized-comments': ['error', 'never'],
+  'capitalized-comments': [
+    'error',
+    'never',
+    {
+      ignorePattern: 'TODO'
+    }
+  ],
 
   'constructor-super': 'error',
   'no-dupe-class-members': 'error',
